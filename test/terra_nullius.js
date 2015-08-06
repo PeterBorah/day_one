@@ -1,6 +1,6 @@
 contract('TerraNullius', function(accounts) {
   it("lets you stake a claim", function(done) {
-    tn = TerraNullius.at(TerraNullius.deployed_address);
+    var tn = TerraNullius.at(TerraNullius.deployed_address);
 
     tn.claim("Kilroy was here.").
     then(function() { return tn.number_of_claims.call() }).

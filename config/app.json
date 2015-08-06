@@ -18,7 +18,9 @@
   },
   "deploy": [
     // Names of contracts that should be deployed to the network.
-    "TerraNullius"
+    "TerraNullius",
+    "BlockNumber",
+    "KingOfTheHill"
   ],
   "rpc": {
     // Default RPC configuration.
