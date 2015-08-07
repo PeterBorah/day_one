@@ -17,11 +17,11 @@
     "images/": "images/"
   },
   "deploy": [
-    /* "TerraNullius", */
+    "TerraNullius"
     /* "BlockNumber", */
     /* "KingOfTheHill", */
     /* "Incrementer", */
-    "TheAnswer"
+    /* "TheAnswer" */
   ],
   "rpc": {
     // Default RPC configuration.
