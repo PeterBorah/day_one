@@ -17,10 +17,11 @@
     "images/": "images/"
   },
   "deploy": [
-    // Names of contracts that should be deployed to the network.
-    "TerraNullius",
-    "BlockNumber",
-    "KingOfTheHill"
+    /* "TerraNullius", */
+    /* "BlockNumber", */
+    /* "KingOfTheHill", */
+    /* "Incrementer", */
+    "TheAnswer"
   ],
   "rpc": {
     // Default RPC configuration.
